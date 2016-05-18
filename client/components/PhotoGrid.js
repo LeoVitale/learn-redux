@@ -2,9 +2,11 @@ import React from 'react';
 
 const PhotoGrid = React.createClass({
   render(){
-    <div className="photo-grid">
-      PHOTO GRID
-    </div>
+    return(
+      <div className="photo-grid">
+        PHOTO GRID
+      </div>
+    );
   }
 });
 
